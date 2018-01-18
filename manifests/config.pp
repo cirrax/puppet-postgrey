@@ -2,10 +2,10 @@
 #
 # Parameters:
 # $whitelist_clients_file:
-#   path of the whitelist_clients file.
+#   path of the whitelist_clients file to create.
 #   default: '/etc/postgrey/whitelist_clients'
 # $whitelist_receipients_file:
-#   path of the whitelist_recepients file.
+#   path of the whitelist_recepients file to create
 #   default: '/etc/postgrey/whitelist_recipients'
 #
 class postgrey::config(
